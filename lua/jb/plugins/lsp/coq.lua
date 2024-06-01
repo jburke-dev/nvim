@@ -29,4 +29,6 @@ lspconfig.lua_ls.setup(coq.lsp_ensure_capabilities{
     }
 })
 
+lspconfig.digestif.setup(coq.lsp_ensure_capabilities{})
+
 vim.cmd("COQnow -s")
